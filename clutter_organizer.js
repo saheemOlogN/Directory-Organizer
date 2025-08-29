@@ -1,7 +1,7 @@
 import { promises as fs } from "fs";
 import path from "path";
 
-let path_name = ""//paste your path here;
+let path_name = ""//paste your directory's path here;
 let files = await fs.readdir(path_name);
 console.log("Files found:", files);
 
@@ -43,4 +43,5 @@ for (let file of files) {
     }
   }
 }
+
 

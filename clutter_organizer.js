@@ -1,7 +1,7 @@
 import { promises as fs } from "fs";
 import path from "path";
 
-let path_name = "C:/Users/Saheem/OneDrive/Desktop/clutter";
+let path_name = ""//paste your path here;
 let files = await fs.readdir(path_name);
 console.log("Files found:", files);
 
@@ -43,3 +43,4 @@ for (let file of files) {
     }
   }
 }
+
